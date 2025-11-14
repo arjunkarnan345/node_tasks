@@ -1,5 +1,5 @@
 {
-  "name": "task",
+  "name": "backend_2",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -8,21 +8,14 @@
     "dev": "nodemon server.js",
     "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/arjunkarnan345/node_tasks.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/arjunkarnan345/node_tasks/issues"
-  },
-  "homepage": "https://github.com/arjunkarnan345/node_tasks#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^17.2.3",
     "express": "^5.1.0",
-    "nodemon": "^3.1.10"
+    "mongoose": "^8.19.3",
+    "nodemon": "^3.1.11"
   }
 }
